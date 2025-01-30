@@ -1,0 +1,42 @@
+Model Metrics - Final Model Features, Parameters, Hyperparameters, and Performance Metrics
+
+Model Name: GradientBoostingClassifier
+
+Features Used:
+
+- Revenue
+- TotalTransactions
+- AvgOrderValue
+- Frequency
+- Recency 
+- Tenure  
+- RecencyCluster2
+- FrequencyCluster2
+- RevenueCluster2 
+- Overall_Score
+- Segment_High-Value
+- Segment_Low-Value     
+- Segment_Mid-Value        
+
+
+Parameters and Hyperparameters:
+- n_estimators: 200
+- max_depth: 9
+- min_samples_split: 10
+- min_samples_leaf: 7
+- max_features: 'log2'
+- learning_rate: 0.2
+
+Performance Metrics:
+- Accuracy: 0.9868
+- Precision: 0.9900
+- Train Accuracy: 0.9841
+- Test Accuracy : 0.9868
+- F1 Score: 0.9900
+
+
+Confusion matrix: 
+[[470  17   0   0]
+ [  8 486   0   0]
+ [  0   0 478   0]
+ [  0   0   0 445]]
